@@ -44,6 +44,7 @@ public class Question5 {
             }
         }
 
+
         return res;
     }
     //this will seperate the values of start point and end point with height
@@ -56,7 +57,11 @@ public class Question5 {
             heights.add(new int[]{building[1],building[2]});
         }
 
+    }
 
-
+    public static void main(String[] args) {
+        Question5 question5 =new Question5();
+        int[][] a={{1,4,10},{2,5,15},{5,8,12},{9,11,1},{11,13,15}};
+        question5.getSkyline(a);
     }
 }
